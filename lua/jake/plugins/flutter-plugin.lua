@@ -67,6 +67,7 @@ return {
       outline = {
         open_cmd = '30vnew', -- command to use to open the outline buffer
         auto_open = false, -- if true this will open the outline automatically when it is first populated
+
       },
       lsp = {
         color = { -- show the derived colours for dart variables
