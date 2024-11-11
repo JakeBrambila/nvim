@@ -13,7 +13,8 @@ return {
       check_ts = true, -- enable treesitter
       ts_config = {
         lua = { "string" }, -- don't add pairs in lua string treesitter nodes
-        javascript = { "template_string" }, -- don't add pairs in javscript template_string treesitter nodes
+        python = { "string" }, -- don't add pairs in python
+        go = { "string" }, -- don't add pairs in go string treesitter nodes
         java = false, -- don't check treesitter on java
       },
     })
