@@ -30,7 +30,6 @@ return {
 				"lua_ls", -- lua language server
 				"pyright", -- python language server
 				"gopls", -- go language server
-				"dartls", -- dart language server
 			},
 		})
 
@@ -39,7 +38,7 @@ return {
 				"stylua", -- lua formatter
 				"black", -- python formatter
 				"pylint", -- python linter
-				"gopls" -- go language server
+				"gopls", -- go language server
 			},
 		})
 	end,
